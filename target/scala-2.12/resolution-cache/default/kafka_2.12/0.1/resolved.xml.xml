@@ -4,7 +4,7 @@
 		module="kafka_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20171226134341"
+		publication="20180324110401"
 	>
 		<description>
 		Kafka
@@ -32,5 +32,15 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka_2.11" rev="0.11.0.0" conf="compile->default(compile)">
+			<exclude org="javax.jms" module="jms" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jdmk" module="jmxtools" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jmx" module="jmxri" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-simple" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.13" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.0.13" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
