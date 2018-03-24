@@ -56,6 +56,21 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scaldi#scaldi_2.11;0.5.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scaldi#scaldi_2.11;0.5.6
+[debug] 	found org.scaldi#scaldi_2.11;0.5.6 in sbt-chain
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: net.jpountz.lz4#lz4;1.3.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.3.0
@@ -183,6 +198,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0
+[debug] 	found org.scala-lang#scala-reflect;2.11.0 in sbt-chain
+[debug] 	[2.11.0] org.scala-lang#scala-reflect;2.11.0
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.kafka#kafka_2.11;0.11.0.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.kafka#kafka_2.11;0.11.0.0
@@ -241,6 +268,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
@@ -337,6 +376,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->compile]
@@ -389,6 +436,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
@@ -485,6 +544,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->compile]
@@ -541,6 +608,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
@@ -637,6 +716,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->compile]
@@ -689,6 +776,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
@@ -785,6 +884,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->compile]
@@ -837,6 +944,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->compile]
@@ -949,10 +1068,6 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scalatest#scalatest_2.10;2.0 [test->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scalatest#scalatest_2.10;2.0 [test->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [test->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0
-[debug] 	found org.scala-lang#scala-reflect;2.11.0 in sbt-chain
-[debug] 	[2.11.0] org.scala-lang#scala-reflect;2.11.0
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [test->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [test->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [test->master(compile)]
@@ -1019,6 +1134,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
@@ -1115,6 +1242,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->compile]
@@ -1169,6 +1304,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile-internal->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile-internal->compile]
@@ -1265,6 +1412,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile-internal->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile-internal->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile-internal->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile-internal->compile]
@@ -1321,6 +1476,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
@@ -1417,6 +1584,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->compile]
@@ -1469,6 +1644,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
@@ -1565,6 +1752,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->compile]
@@ -1618,6 +1813,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime-internal->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime-internal->compile]
@@ -1714,6 +1921,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime-internal->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime-internal->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime-internal->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime-internal->compile]
@@ -1771,6 +1986,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
@@ -1867,6 +2094,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [compile->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [compile->compile]
@@ -1919,6 +2154,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [runtime->compile]
@@ -2015,6 +2262,14 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.zookeeper#zookeeper;3.4.10 [runtime->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->compile(*)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scala-lang#scala-reflect;2.11.0 [runtime->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->default]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->runtime]
 [debug] == resolving dependencies default#kafka$sources;0.1->org.apache.kafka#kafka_2.11;0.11.0.0 [runtime->compile]
@@ -2067,6 +2322,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test->compile]
@@ -2237,6 +2504,18 @@
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->com.yammer.metrics#metrics-core;2.2.0 [test-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->default]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->runtime]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->compile]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->master]
+[debug] == resolving dependencies default#kafka$sources;0.1->org.scaldi#scaldi_2.11;0.5.6 [test-internal->master]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test-internal->compile]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#kafka$sources;0.1->net.jpountz.lz4#lz4;1.3.0 [test-internal->compile]
@@ -2438,46 +2717,51 @@
 [debug] circular dependency found: org.scala-lang#scala-compiler;2.11.0->org.scala-lang.modules#scala-xml_2.11;1.0.1->...
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.kafka#kafka_2.11;0.11.0.0!kafka_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.kafka#kafka-clients;0.11.0.0!kafka-clients.jar(src)
 [debug] 	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.2.6!snappy-java.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.jopt-simple#jopt-simple;5.0.3!jopt-simple.jar(src)
-[debug] 		tried /Users/pprapojjanap/.ivy2/local/org.scala-lang/scala-reflect/2.11.0/srcs/scala-reflect-sources.jar
-[debug] 		tried /Users/pprapojjanap/.ivy2/local/org.scala-lang/scala-library/2.11.0/srcs/scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.25!slf4j-log4j12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.10!zookeeper.jar(src)
-[debug] 	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar(src)
-[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.kafka#kafka_2.11;0.11.0.0!kafka_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar(src)
-[debug] 		tried /Users/pprapojjanap/.ivy2/local/jline/jline/2.11/srcs/jline-sources.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar
-[debug] 	[NOT REQUIRED] com.101tec#zkclient;0.10!zkclient.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar(src) (1559ms)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar(src)
+[debug] no default ivy user dir defined: set to /Users/pprapojjanap/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.0!scala-compiler.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.11!jline.jar(src) (2532ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.10!zookeeper.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.yammer.metrics#metrics-core;2.2.0!metrics-core.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.0!scala-library.jar(src) (4002ms)
-[debug] :: resolution report :: resolve 389ms :: artifacts dl 4017ms
+[debug] including url: jar:file:/Users/pprapojjanap/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 		tried /Users/pprapojjanap/.ivy2/local/org.scaldi/scaldi_2.11/0.5.6/srcs/scaldi_2.11-sources.jar
+[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar(src)
+[debug] no default cache defined: set to /Users/pprapojjanap/.ivy2/cache
+[debug] including url: jar:file:/Users/pprapojjanap/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/scaldi/scaldi_2.11/0.5.6/scaldi_2.11-0.5.6-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.0!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] including url: jar:file:/Users/pprapojjanap/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] com.101tec#zkclient;0.10!zkclient.jar(src)
+[debug] including url: jar:file:/Users/pprapojjanap/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/pprapojjanap/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (23ms)
+[debug] 	default cache: /Users/pprapojjanap/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[info] downloading https://repo1.maven.org/maven2/org/scaldi/scaldi_2.11/0.5.6/scaldi_2.11-0.5.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scaldi/scaldi_2.11/0.5.6/scaldi_2.11-0.5.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scaldi/scaldi_2.11/0.5.6/scaldi_2.11-0.5.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scaldi/scaldi_2.11/0.5.6/scaldi_2.11-0.5.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scaldi#scaldi_2.11;0.5.6!scaldi_2.11.jar(src) (4740ms)
+[debug] :: resolution report :: resolve 1402ms :: artifacts dl 4764ms
 [debug] 	report for default#kafka$sources;0.1 compile produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-compile.xml
 [debug] 	report for default#kafka$sources;0.1 runtime produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-runtime.xml
 [debug] 	report for default#kafka$sources;0.1 test produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-test.xml
@@ -2489,4 +2773,4 @@
 [debug] 	report for default#kafka$sources;0.1 plugin produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-plugin.xml
 [debug] 	report for default#kafka$sources;0.1 pom produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-pom.xml
 [debug] 	report for default#kafka$sources;0.1 scala-tool produced in /Users/pprapojjanap/Kafka/target/scala-2.11/resolution-cache/reports/default-kafka$sources-scala-tool.xml
-[debug] 	resolve done (389ms resolve - 4017ms download)
+[debug] 	resolve done (1402ms resolve - 4764ms download)
