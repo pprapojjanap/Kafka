@@ -10,7 +10,7 @@ object Main extends App with Injectable{
   import bindings.Binding.appInjector
 
   val producer = inject[KafkaProducer[Integer,Array[Byte]]]
-  val data = new ProducerRecord[Integer, Array[Byte]]("test", "This is a message19".getBytes(StandardCharsets.UTF_8))
+  val data = ProducerRecordTest("test", "This is a message")
   producer.send(data)
   producer.close()
 
