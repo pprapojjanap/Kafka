@@ -4,7 +4,7 @@ target
 tmp
 .history
 dist
-.idea/workspace.xml
+/.idea/workspace.xml
 .idea
 /*.iml
 /out
